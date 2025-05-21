@@ -1,0 +1,12 @@
+/var/log/syslog {
+    weekly
+    rotate 4
+    compress
+    delaycompress
+    missingok
+    notifempty
+    create 0640 syslog adm
+    postrotate
+        systemctl reload rsyslog > /dev/null
+    endscript
+}
