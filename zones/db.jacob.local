@@ -1,0 +1,15 @@
+$TTL    604800
+@       IN      SOA     ns1.jacob.local. admin.jacob.local. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+
+; Name servers
+@       IN      NS      ns1.jacob.local.
+
+; A records
+ns1     IN      A       192.168.10.1
+pc1     IN      A       192.168.10.20
+pc2     IN      A       192.168.10.21
