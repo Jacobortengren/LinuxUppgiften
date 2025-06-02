@@ -25,7 +25,9 @@ Syftet med projektet är att få praktisk erfarenhet av konfiguration, felsökni
 ## Automatisering
 
 Två egna Bash-skript har använts för:
-1. Daglig backup av konfigurationsfiler till detta Git-repo
-2. Kontroll av tjänsternas status med loggning till syslog
+1. Daglig backup av konfigurationsfiler.
+2. Kontroll av tjänsternas status med loggning till syslog.
 
-## Tack för du tittade! Ha det gott!
+## Slutkläm.
+
+Vid behov av support, vänligen kontakta mig via e-post på: private@private.com (observera att detta är ett offentligt projekt).
